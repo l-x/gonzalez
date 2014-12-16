@@ -1,0 +1,20 @@
+{
+    "name": "lx/gonzalez",
+    "description": "Yet another micro-framework for timing PHP code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Wühr",
+            "email": "l-x@mailbox.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": { "Gonzalez": "src/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    }
+}

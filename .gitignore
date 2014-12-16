@@ -1,0 +1,6 @@
+dev/
+.idea
+vendor/
+phpunit.xml
+build/
+*.phar
