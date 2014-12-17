@@ -6,7 +6,8 @@ php:
 addons:
   code_climate:
     repo_token:
-      secure: "ISxHFbuiVRjGSS2gVKxeMARlDk79nZJpkvx9nAR3gG2MX7YXSVpZ+kvBOjTfOLaWZwCnLpXWQ7Ho5bvULNfjaylQA0M7vYKVIfFzztgkYAN4c+8YlRCSZY/Ea3tp+po0wrO3657yaZAA0S6E0n4sUno0YY8G3CyGEa1YwN/n8hs="before_script:
+      secure: "ISxHFbuiVRjGSS2gVKxeMARlDk79nZJpkvx9nAR3gG2MX7YXSVpZ+kvBOjTfOLaWZwCnLpXWQ7Ho5bvULNfjaylQA0M7vYKVIfFzztgkYAN4c+8YlRCSZY/Ea3tp+po0wrO3657yaZAA0S6E0n4sUno0YY8G3CyGEa1YwN/n8hs="
+before_script:
 - make travis-init
 script:
 - make travis-run
